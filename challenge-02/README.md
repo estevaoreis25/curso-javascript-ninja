@@ -41,10 +41,10 @@ Crie uma função com as seguintes características:
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
 function mult(x, y, z){
-if( x == null || y == null || z == null){
-return "Preencha todos os valores corretamente!"
+if( x === undefined || y === undefined || z === undefined){
+return "Preencha todos os valores corretamente!";
 }
-else{return (x*y*z)+2; }
+return (x * y * z)+2;
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
@@ -69,17 +69,17 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function conta(x, y, z){
-if( x == null && y == null && z == null){
+if( x === undefined && y === undefined && z == undefined){
 return false;
 }
-else if(y == null && z == null){
-return x;
+else if(x !== undefined && y === undefined && z === undefined){
+ return x;
 }
-else if(z == null){
-return x+y;
+else if(x !== undefined && y !== undefined && z === undefined){
+ return x+y;
 }
-else if(){
-return(x+y)/z;
+else if(x !== undefined && y !== undefined && z !== undefined){
+ return(x+y)/z;
 }
 else{return null;} 
 }
@@ -90,4 +90,3 @@ conta(2);
 conta(4, 5);
 conta(6, 4, 2);
 conta();
-conta("OI");
