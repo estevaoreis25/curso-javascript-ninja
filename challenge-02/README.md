@@ -23,12 +23,12 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 ? function add_valor(){
-x = 4;
-return "O valor da variável agora é "+x+"." 
+numero = 4;
+return "O valor da variável agora é "+numero+"." 
 }
 
 // Invoque a função criada acima.
-numero = add_valor;
+add_valor();
 
 // Qual o retorno da função? (Use comentários de bloco).
 /* O returno da função é a string :"O valor da variável agora é 4."*/
