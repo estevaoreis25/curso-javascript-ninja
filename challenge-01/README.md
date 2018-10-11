@@ -8,7 +8,7 @@ myvar = 10;
 
 // Declare uma nova variável chamada `soma`, e adicione uma instrução somando os valores 15 e 8.
 var soma;
-soma = 15 + 8
+soma = 15 + 8;
 
 // Atribua à variável `soma` todo o valor dela, somando 1, usando o operador de soma abreviado.
 soma ++;
@@ -25,7 +25,7 @@ var souninja = true;
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
 var comida = ["arroz", "feijão", "ovo"]
 // Digite a instrução que imprime o valor de 'feijao', que está na variável `comida`.
-comida[1]
+comida[1];
 
 // Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
 ? soma === myvar;
